@@ -1,0 +1,127 @@
+{
+  "finding": "F34",
+  "description": "Mass User Enumeration: unauthenticated GET /v1/user/account-email?accountOrEmail=N",
+  "scan_date": "2026-03-20",
+  "total_accounts_found_in_sample": 14,
+  "density": {
+    "sample_zone": "22,079,000–22,084,000 (contiguous step=1 scan)",
+    "accounts_in_sample": 10,
+    "avg_gap_between_accounts": 55.4,
+    "note": "userAccount integers are sparse: not all values map to an account"
+  },
+  "accounts": [
+    {
+      "userAccount": 22077039,
+      "email": "[REDACTED]",
+      "userId": "532677909496725504",
+      "areaCode": "USA",
+      "userState": 1,
+      "server_queried": "us"
+    },
+    {
+      "userAccount": 22077691,
+      "email": "[REDACTED]",
+      "userId": "532694346474979328",
+      "areaCode": "USA",
+      "userState": 1,
+      "server_queried": "us"
+    },
+    {
+      "userAccount": 22079707,
+      "email": "[REDACTED]",
+      "userId": "532800298599579648",
+      "areaCode": "USA",
+      "userState": 1,
+      "server_queried": "us"
+    },
+    {
+      "userAccount": 22079743,
+      "email": "[REDACTED]",
+      "userId": "532805360415670272",
+      "areaCode": "USA",
+      "userState": 1,
+      "server_queried": "us"
+    },
+    {
+      "userAccount": 22079759,
+      "email": "[REDACTED]",
+      "userId": "532810796447563776",
+      "areaCode": "USA",
+      "userState": 1,
+      "server_queried": "us"
+    },
+    {
+      "userAccount": 22079858,
+      "email": "[REDACTED]",
+      "userId": "532829247543181312",
+      "areaCode": "USA",
+      "userState": 1,
+      "server_queried": "us"
+    },
+    {
+      "userAccount": 22079953,
+      "email": "[REDACTED]",
+      "userId": "532837125624692736",
+      "areaCode": "CAN",
+      "userState": 1,
+      "server_queried": "us"
+    },
+    {
+      "userAccount": 22080043,
+      "email": "[REDACTED]",
+      "userId": "532839204984455168",
+      "areaCode": "USA",
+      "userState": 1,
+      "server_queried": "us"
+    },
+    {
+      "userAccount": 22080099,
+      "email": "[REDACTED]",
+      "userId": "532854096600760320",
+      "areaCode": "USA",
+      "userState": 1,
+      "server_queried": "us"
+    },
+    {
+      "userAccount": 22080167,
+      "email": "[REDACTED]",
+      "userId": "532854790598688768",
+      "areaCode": "USA",
+      "userState": 1,
+      "server_queried": "us"
+    },
+    {
+      "userAccount": 22080205,
+      "email": "[REDACTED]",
+      "userId": "532860807369719808",
+      "areaCode": "USA",
+      "userState": 1,
+      "server_queried": "us"
+    },
+    {
+      "userAccount": 22080206,
+      "email": "[REDACTED]",
+      "userId": "532864468024033280",
+      "areaCode": "USA",
+      "userState": 1,
+      "server_queried": "us"
+    },
+    {
+      "userAccount": 22089453,
+      "email": "bydtest01@mammotiontech.com",
+      "userId": "533586431658950656",
+      "areaCode": "CHN",
+      "userState": 1,
+      "server_queried": "cn"
+    },
+    {
+      "userAccount": 22289453,
+      "email": "review@pgyer.com",
+      "userId": "574995739189444608",
+      "areaCode": "CHN",
+      "userState": 1,
+      "server_queried": "cn"
+    }
+  ],
+  "note": "Emails redacted. userAccount, userId, areaCode, userState are non-PII structural fields. Last two entries are Mammotion internal test accounts (mammotiontech.com) and their QA review platform (pgyer.com): kept as-is."
+}

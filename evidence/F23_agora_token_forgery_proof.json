@@ -1,0 +1,13 @@
+{
+  "finding": "F23",
+  "description": "Agora video token forged WITHOUT any Mammotion credentials",
+  "target_channel": "iFonAEJ4w3cmcEQDNrLT000000",
+  "target_device": "Kevin's Luba 2 mower (iotId=iFonAEJ4w3cmcEQDNrLT000000)",
+  "attacker_uid": 99999,
+  "agora_app_id": "5bcfed01952d4f2eb306c98b8908da93",
+  "agora_app_certificate": "F2A95E3449CD4954826A2E0F80A12D2F",
+  "forged_token": "007eJxSYGjsmLj6/dbpJksSlHRKP5z3ZRD7eLVq/h3J2dtdLzvJzO1UYDBNSk5LTTEwtDQ1SjFJM0pNMjYwS7a0SLKwNLBISbQ0vtaxJ1OAj4GhJEaTmZGBkYGFgZEBxGcCk8xgkgVMSjFkuuXnObp6mZQbJ+cmuwa6+BX5hBiAASuDJQgAAgAA//9wJibC",
+  "edge_server_response": null,
+  "timestamp": "2026-03-20T00:37:58Z",
+  "mammotion_credentials_used": "NONE"
+}

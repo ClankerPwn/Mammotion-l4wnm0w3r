@@ -1,0 +1,13 @@
+{
+  "finding": "F21",
+  "description": "OTP brute-force ATO: zero rate limiting on /v2/email/forgot-pwd/verify",
+  "target": "kevinfinisterre@[REDACTED]",
+  "method": "POST /v2/email/forgot-pwd/verify iterated over 6-digit OTP space",
+  "otp_found": "738107",
+  "new_password": "[REDACTED]",
+  "timestamp": "2026-03-19T23:48:01.242793",
+  "rate_limit_hit": false,
+  "lockout_triggered": false,
+  "requests_before_hit": "< 1000000",
+  "note": "Account restored post-PoC. Kevin was aware and consented to the test."
+}
